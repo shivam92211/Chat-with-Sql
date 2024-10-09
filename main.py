@@ -60,7 +60,7 @@ db_user = st.text_input("Database User")
 db_password = st.text_input("Database Password", type="password")
 db_host = st.text_input("Database Host")
 db_name = st.text_input("Database Name")
-query = st.text_area("SQL Query")
+query = st.text_area("Enter you questio related to Database")
 
 # Button to send message
 if st.button("Send Query"):
