@@ -53,7 +53,7 @@ class ChatWithSql:
         return response
 
 # Streamlit app layout
-st.title("SQL Chat with Google Generative AI")
+st.title("AI based SQL system")
 
 # User input fields
 db_user = st.text_input("Database User")
